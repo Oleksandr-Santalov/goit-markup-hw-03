@@ -133,6 +133,7 @@ body {
 /* ============== HERO STYLES ============== */
 .hero {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 .main-title {
   color: #ffffff;
@@ -142,6 +143,8 @@ body {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  max-width: 496px;
+  margin: 0 auto;
 }
 .order-servis-btn {
   background-color: #4d5ae5;
@@ -151,6 +154,12 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  display: block;
+  margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 .order-servis-btn:hover,
 .order-servis-btn:focus {
@@ -160,6 +169,14 @@ body {
 /* ============== BENEFITS STYLES ============== */
 .benefits {
   background-color: #ffffff;
+  padding: 120px 0;
+}
+.benefits-list {
+  display: flex;
+  gap: 24px;
+}
+.benefits-list:first-child {
+  width: calc((100% - 72px) / 4);
 }
 .benefits-list-title {
   color: #2e2f42;
@@ -168,6 +185,7 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .benefits-list-text {
   color: #434455;

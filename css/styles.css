@@ -271,6 +271,10 @@ body {
   column-gap: 24px;
   row-gap: 48px;
 }
+.porflio-products {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+}
 .portfolio-list-title {
   color: #2e2f42;
   font-size: 20px;
@@ -278,6 +282,7 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .portfolio-list-text {
   color: #434455;
@@ -291,6 +296,7 @@ body {
 /* ============== FOOTER STYLES ============== */
 .page-footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .logotype-footer {
   color: #4d5ae5;
@@ -301,6 +307,8 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .accent-color-footer {
   color: #f4f4fd;

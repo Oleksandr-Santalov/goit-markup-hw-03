@@ -174,6 +174,7 @@ body {
 .benefits-list {
   display: flex;
   gap: 24px;
+  width: 100%;
 }
 .benefits-list:first-child {
   width: calc((100% - 72px) / 4);
@@ -186,6 +187,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
+  margin: 0 auto;
 }
 .benefits-list-text {
   color: #434455;
@@ -198,6 +200,7 @@ body {
 /* ============== TEAM STYLES ============== */
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .team-title {
   color: #2e2f42;
@@ -208,6 +211,16 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
+}
+.team-list {
+  display: flex;
+  gap: 24px;
+  width: 100%;
+}
+.team-list:first-child {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-list-item {
   background-color: #ffffff;

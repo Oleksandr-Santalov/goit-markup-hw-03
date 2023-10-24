@@ -218,6 +218,7 @@ body {
 }
 .team-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
   width: 100%;
 }

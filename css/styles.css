@@ -174,11 +174,11 @@ body {
 .benefits-list {
   display: flex;
   gap: 24px;
+  width: 100%;
+}
+.benefits-list:first-child {
   width: calc((100% - 72px) / 4);
 }
-/* .benefits-list:first-child {
-  width: calc((100% - 72px) / 4);
-} */
 .benefits-list-title {
   color: #2e2f42;
   font-size: 20px;
@@ -212,16 +212,19 @@ body {
   text-transform: capitalize;
   margin-bottom: 72px;
 }
+
+.team-name-position {
+  padding: 32px 0;
+}
 .team-list {
   display: flex;
   gap: 24px;
+  width: 100%;
+}
+.team-list:first-child {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
-/* .team-list:first-child {
-  width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px;
-} */
 .team-list-item {
   background-color: #ffffff;
 }

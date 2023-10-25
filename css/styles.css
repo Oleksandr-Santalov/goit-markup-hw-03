@@ -149,6 +149,7 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
+
   margin: 0 auto;
 }
 .order-servis-btn {
@@ -161,6 +162,7 @@ body {
   letter-spacing: 0.04em;
   display: block;
   margin: 0 auto;
+  margin-top: 48px;
   min-width: 169px;
   height: 56px;
   border: none;

@@ -97,6 +97,9 @@ body {
 .accent-color {
   color: #2e2f42;
 }
+.contact-list-link {
+  padding: 24px 0;
+}
 .contact-list-item {
   padding: 24px 0;
 }

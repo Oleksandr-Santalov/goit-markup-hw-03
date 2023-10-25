@@ -98,9 +98,9 @@ body {
   color: #2e2f42;
 }
 
-.contact-list-item {
+/* .contact-list-item {
   padding: 24px 0;
-}
+} */
 .menu-link {
   color: #2e2f42;
   font-size: 16px;
@@ -108,6 +108,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 .contact {
   font-style: normal;

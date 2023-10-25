@@ -176,9 +176,9 @@ body {
 .benefits-list {
   display: flex;
   gap: 24px;
-  width: 100%;
+  /* width: 100%; */
 }
-.benefits-list-item:first-child {
+.benefits-list-item {
   width: calc((100%-72px) / 4);
 }
 .benefits-list-title {
@@ -220,18 +220,13 @@ body {
 }
 .team-list {
   display: flex;
-  /* flex-wrap: wrap; */
+  
   gap: 24px;
-  /* width: 100%; */
-}
-/* .team-list-item:first-child {
-  width: calc((100%-72px) / 4);
-  border-radius: 0px 0px 4px 4px;
-} */
+
 .team-list-item {
   background-color: #ffffff;
   width: calc((100%-72px) / 4);
-  border-radius: 0px 0px 4px 4px;
+  /* border-radius: 0px 0px 4px 4px; */
 }
 .team-list-title {
   color: #2e2f42;
